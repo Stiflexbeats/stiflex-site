@@ -135,7 +135,7 @@ Contact : <a href="mailto:${CONTACT}">${CONTACT}</a><br>
 Directeur de la publication : ${EDITEUR}<br>
 TVA : ${A('« TVA non applicable, art. 293 B du CGI » si franchise en base, ou numéro de TVA')}</p>
 <h2>Vente</h2>
-<p>Les licences sont vendues par l'intermédiaire de Lemon Squeezy, qui agit comme revendeur officiel (« merchant of record ») : il encaisse le paiement, émet la facture et reverse la TVA applicable. Ses conditions s'appliquent au paiement.</p>
+<p>Les licences sont vendues par l'intermédiaire de Gumroad, plateforme de vente qui agit comme revendeur (« merchant of record ») : elle encaisse le paiement, envoie le reçu et collecte la TVA applicable. Ses conditions s'appliquent au paiement.</p>
 <h2>Hébergement</h2>
 <p>Ce site est hébergé par GitHub Pages (GitHub, Inc., San Francisco, États-Unis).</p>
 <h2>Propriété intellectuelle</h2>
@@ -156,7 +156,7 @@ ${BROUILLON}
 <h2>3. Prix</h2>
 <p>Les prix sont indiqués en euros, toutes taxes comprises. Le prix applicable est celui affiché au moment de la commande.</p>
 <h2>4. Commande et paiement</h2>
-<p>La commande et le paiement sont réalisés sur la page de paiement de Lemon Squeezy, revendeur officiel, qui encaisse le paiement (carte bancaire, PayPal…) et émet la facture. La commande est ferme à la confirmation du paiement.</p>
+<p>La commande et le paiement sont réalisés sur la page de paiement de Gumroad, qui encaisse le paiement (carte bancaire, PayPal…) et envoie le reçu. La commande est ferme à la confirmation du paiement.</p>
 <h2>5. Livraison</h2>
 <p>La clé de licence et le lien de téléchargement sont envoyés immédiatement par e-mail après le paiement.</p>
 <h2>6. Droit de rétractation</h2>
@@ -179,7 +179,7 @@ page('licence.html', 'Licence d\'utilisation', 'Contrat de licence d\'utilisatio
 <h1>Licence d'utilisation</h1>
 ${BROUILLON}
 <h2>1. Ce que tu peux faire</h2>
-<p>La licence te permet d'installer et d'utiliser le Logiciel acheté sur un ordinateur à la fois, pour tes besoins personnels ou professionnels. Tu peux libérer ta licence depuis les Paramètres pour l'utiliser sur un autre ordinateur.</p>
+<p>La licence te permet d'installer et d'utiliser le Logiciel acheté sur un ordinateur à la fois, pour tes besoins personnels ou professionnels. Pour l'utiliser sur un autre ordinateur, écris à ${CONTACT} : nous transférons ta licence.</p>
 <h2>2. Ce qui n'est pas permis</h2>
 <ul class="liste">
   <li>revendre, louer ou partager ta clé de licence ;</li>
@@ -232,8 +232,8 @@ ${BROUILLON}
 <ul class="liste">
   <li><strong>Fournisseur d'IA que tu choisis</strong> (Anthropic, OpenAI, Groq, OpenRouter…) : les messages et tâches que tu confies aux agents, pour qu'ils soient traités. Leur politique de confidentialité s'applique.</li>
   <li><strong>Reconnaissance vocale en ligne</strong> (si tu l'actives, par exemple Groq) : l'enregistrement de ta voix, pour le transcrire. Sinon, la reconnaissance se fait sur ton ordinateur.</li>
-  <li><strong>Vérification de la licence</strong> (Lemon Squeezy) : ta clé de licence et un libellé neutre (« Stiflex » ou « AI Company OS » et le système d'exploitation), au moment de l'activation puis au plus une fois par semaine. Le nom de ton ordinateur n'est pas envoyé.</li>
-  <li><strong>Achat</strong> (Lemon Squeezy) : les informations de commande et de paiement, traitées par Lemon Squeezy.</li>
+  <li><strong>Vérification de la licence</strong> (Gumroad) : ta clé de licence et l'identifiant du produit, au moment de l'activation puis au plus une fois par semaine. Aucune autre information sur ton ordinateur n'est envoyée.</li> (Lemon Squeezy) : ta clé de licence et un libellé neutre (« Stiflex » ou « AI Company OS » et le système d'exploitation), au moment de l'activation puis au plus une fois par semaine. Le nom de ton ordinateur n'est pas envoyé.</li>
+  <li><strong>Achat</strong> (Gumroad) : les informations de commande et de paiement, traitées par Gumroad.</li> (Lemon Squeezy) : les informations de commande et de paiement, traitées par Lemon Squeezy.</li>
   <li><strong>Services que tu connectes toi-même</strong> (messageries, outils en ligne) : uniquement ce que tu leur confies.</li>
 </ul>
 <h2>Ce que nous ne faisons pas</h2>
