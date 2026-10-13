@@ -44,3 +44,4 @@ ul.liste li { margin: 4px 0; }
 footer.bas { margin: 60px 0 30px; padding-top: 18px; border-top: 1px solid var(--bord); font-size: 14px; color: var(--doux); display: flex; flex-wrap: wrap; gap: 8px 20px; }
 footer.bas a { color: var(--doux); }
 @media (max-width: 560px) { body { font-size: 16px; } h2 { font-size: 22px; } }
+.carte h2 { margin: 0; }
