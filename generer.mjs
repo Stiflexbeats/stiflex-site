@@ -232,8 +232,8 @@ ${BROUILLON}
 <ul class="liste">
   <li><strong>Fournisseur d'IA que tu choisis</strong> (Anthropic, OpenAI, Groq, OpenRouter…) : les messages et tâches que tu confies aux agents, pour qu'ils soient traités. Leur politique de confidentialité s'applique.</li>
   <li><strong>Reconnaissance vocale en ligne</strong> (si tu l'actives, par exemple Groq) : l'enregistrement de ta voix, pour le transcrire. Sinon, la reconnaissance se fait sur ton ordinateur.</li>
-  <li><strong>Vérification de la licence</strong> (Gumroad) : ta clé de licence et l'identifiant du produit, au moment de l'activation puis au plus une fois par semaine. Aucune autre information sur ton ordinateur n'est envoyée.</li> (Lemon Squeezy) : ta clé de licence et un libellé neutre (« Stiflex » ou « AI Company OS » et le système d'exploitation), au moment de l'activation puis au plus une fois par semaine. Le nom de ton ordinateur n'est pas envoyé.</li>
-  <li><strong>Achat</strong> (Gumroad) : les informations de commande et de paiement, traitées par Gumroad.</li> (Lemon Squeezy) : les informations de commande et de paiement, traitées par Lemon Squeezy.</li>
+  <li><strong>Vérification de la licence</strong> (Gumroad) : ta clé de licence et l'identifiant du produit, au moment de l'activation puis au plus une fois par semaine. Aucune autre information sur ton ordinateur n'est envoyée.</li>
+  <li><strong>Achat</strong> (Gumroad) : les informations de commande et de paiement, traitées par Gumroad.</li>
   <li><strong>Services que tu connectes toi-même</strong> (messageries, outils en ligne) : uniquement ce que tu leur confies.</li>
 </ul>
 <h2>Ce que nous ne faisons pas</h2>
